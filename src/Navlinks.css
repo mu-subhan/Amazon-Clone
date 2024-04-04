@@ -1,0 +1,28 @@
+.navlinks{
+    background-color: #232f33;
+    height: 7vh;
+    color: white;
+}
+.navlinks__outer{
+    /* width: 100%; */
+    margin: auto;
+    padding: 6px;
+}
+.navlinks__outer a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 9px;
+    /* margin-top: 10px; */
+    border: 1px solid #232f3e;
+}
+.navlinks__outer a:hover{
+ border: 0.5px solid #fff;
+ border-radius: 4px;
+
+}
+.navlinks__inner{
+    margin-top: 5px;
+    margin-left: 10%;
+    justify-content: space-between;
+}
